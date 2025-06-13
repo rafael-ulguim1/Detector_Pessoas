@@ -1,5 +1,9 @@
 Este repositório contém um projeto Python que utiliza o `uv` como gerenciador de pacotes e executor de comandos.
 
+## Como rodar
+ uv run .\src\ia_m_uv\main.py
+
+
 ## Como começar
 
 ### Pré-requisitos
@@ -58,3 +62,4 @@ ia-m-uv/
 - `src/ia_m_uv/algoritmos/gemini_integration.py`: Contém a lógica para integração com a API Gemini. https://aistudio.google.com/app/apikey
 - `src/ia_m_uv/utils.py`: Módulo para funções utilitárias.
 - `src/ia_m_uv/__init__.py`: Arquivo de inicialização do pacote Python.
+  
