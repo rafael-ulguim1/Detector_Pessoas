@@ -1,0 +1,27 @@
+[project]
+name = "ia-m-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chiarorosa", email = "pablo.chiaro.rosa@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "google-generativeai>=0.8.5",
+    "numpy>=2.2.6",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.2.1",
+]
+
+[project.scripts]
+ia-m-uv = "ia_m_uv:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
